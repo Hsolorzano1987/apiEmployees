@@ -1,0 +1,28 @@
+###
+GET   http://localhost:4000/api/employees
+
+###
+POST  http://localhost:4000/api/employees
+Content-Type: application/json
+
+{
+    "name": "Hernan Solorzano",
+    "position": "Marker",
+    "office": "Itagui",
+    "salary": "2000"
+    
+
+}
+###
+GET   http://localhost:4000/api/employees/6355e85f8402efdd46d534f5
+
+###
+DELETE http://localhost:4000/api/employees/6355e7778402efdd46d534f1
+
+###
+PUT http://localhost:4000/api/employees/6355e85f8402efdd46d534f5
+Content-Type: application/json
+
+{
+    "salary": 10000000
+}
